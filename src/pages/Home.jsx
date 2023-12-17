@@ -5,11 +5,11 @@ import Footer from "../components/ui/Footer/Footer"
 function Home() {
   return (
     <div>
-        <Hero/>
-        <Ads/>
-        <Grid_posts/>
-        <Ads/>
-        <Footer/>
+      <Hero />
+      <Ads />
+      <Grid_posts />
+      <Ads />
+      <Footer />
     </div>
   )
 }
