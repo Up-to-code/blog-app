@@ -1,6 +1,8 @@
 import Max from "../../layout/Contaniner"
 import Title from "../Card/Title"
 import ListOfLInkes from "./ListOfLInkes"
+import Rights from "./Rights"
+import SubBox from "./SubBox"
 const Linkes = [
     {
         title: "Home",
@@ -83,10 +85,11 @@ function Footer() {
                         <ListOfLInkes title={"Quick Link"} Linkes={Linkes_} />
                     </div>
                     <div>
-                        
+                        <SubBox />
                     </div>
                     {/* end */}
                 </div>
+                <Rights/>
             </Max>
         </footer>
     )

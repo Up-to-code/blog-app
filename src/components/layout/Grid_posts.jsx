@@ -6,7 +6,7 @@ function Grid_posts() {
       <p className="font-bold text-lg ">
         Latest Post
       </p>
-      <div className="grid justify-between gap-5 grid-cols-3">
+      <div className="grid justify-between gap-5 grid-cols-1 md:grid-cols-2  lg:grid-cols-3 ">
         <Post />
         <Post />
         <Post />
